@@ -86,12 +86,13 @@ h4 {
   padding: 3px;
 }
 
-/* Larger than phone */
+/*  phone */
 @media (min-width: 350px) {
   .header {
     margin-top: 5rem;
     margin-bottom: 1rem; 
     text-align: center;
+    padding: 1em
   }
 
   /*.header {
@@ -134,8 +135,8 @@ h4 {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: .2rem;
-    margin-right: 35px;
-    text-decoration: none;
+    margin-right: 0px;
+    text-decoration: underline;
     line-height: 3rem;
     color: #222; }
   .navbar-link.active {
