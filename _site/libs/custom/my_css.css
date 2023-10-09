@@ -27,7 +27,8 @@ h4 {
   font-size: 22px;
   margin-top: 5px; }
 .paper {
-  margin-bottom: 0px }
+  margin-bottom: 5px;
+  margin-left: 10px }
 .paper .title {
   font-size: 15px;
   /*text-transform: uppercase; */}
@@ -107,6 +108,11 @@ h4 {
         width: 100%;
         display: block;
       }*/
+ 
+    
+li {
+  list-style-position: outside;
+}
 
   .navbar + .docs-section {
     border-top-width: 0; }
